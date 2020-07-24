@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |call|
-    call.split.(" ").capitalize
+    planeteer_calls.split.(" ").capitalize
   end
 end
 

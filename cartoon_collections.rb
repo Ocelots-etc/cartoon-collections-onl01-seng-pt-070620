@@ -6,8 +6,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map(&:capitalize).join("!").split do |call|
-    puts call
+  planeteer_calls.map(&:capitalize).join("!").split
   end
 end
 

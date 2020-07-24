@@ -1,3 +1,5 @@
+require 'pry'
+
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index do |dwarf, index|
     index += 1
@@ -7,7 +9,8 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |call|
-    call.capitalize.split(" ").join("!")
+    call.capitalize.split(" ")
+
   end
 end
 
